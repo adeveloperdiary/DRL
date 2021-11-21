@@ -42,7 +42,7 @@ For each time step and agent the Agent acts upon the state utilising a shared (a
 
 ### Neural Networks
 
-Actor and Critic network models were defined in [`ddpg_model.py`](https://github.com/hortovanyi/DRLND-Continuous-Control/blob/master/ddpg_model.py).
+Actor and Critic network models were defined in ddpg_model.py
 
 The Actor networks utilised two fully connected layers with 256 and 128 units with relu activation and tanh activation for the action space. The network has an initial dimension the same as the state size.
 
